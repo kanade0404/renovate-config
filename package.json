@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "author": "kanade0404 <melty0404@gmail.com>",
   "devDependencies": {
-    "fixpack": "^4.0.0",
-    "renovate": "^32.83.2"
+    "fixpack": "4.0.0",
+    "renovate": "32.83.2"
   },
   "license": "MIT",
   "private": true,
