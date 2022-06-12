@@ -24,5 +24,6 @@ jobs:
           key: ${{ runner.os }}-node
       - name: Validate renovate config
         run: |
+          yarn
           yarn fix:pack
           yarn test
