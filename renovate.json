@@ -1,0 +1,79 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":timezone(Asia/Tokyo)",
+    ":prHourlyLimitNone",
+    ":automergePatch"
+  ],
+  "labels": ["Dependencies", "renovate"],
+  "vulnerabilityAlerts": {
+    "labels": [
+      "Security"
+    ]
+  },
+  "dependencyDashboard": true,
+  "dockerfile": {
+    "fileMatch": [
+      "(^|/)Dockerfile-[^/]*$"
+    ]
+  },
+  "packageRules": [
+    {
+      "groupName": "Node.js",
+      "matchPackageNames": [
+        "node", "@types/node"
+      ]
+    },
+    {
+      "groupName": "ESLint families",
+      "extends": ["packages:eslint"]
+    },
+    {
+      "groupName": "Prettier families",
+      "matchPackagePatterns": [
+        "^prettier"
+      ]
+    },
+    {
+      "groupName": "Stylelint families",
+      "matchPackagePatterns": [
+        "stylelint"
+      ]
+    },
+    {
+      "groupName": "React families",
+      "matchPackagePrefixes": [
+        "@types/react",
+        "react"
+      ]
+    },
+    {
+      "groupName": "GraphQL families",
+      "matchPackagePrefixes": [
+        "@graphql",
+        "graphql",
+        "@apollo"
+      ]
+    },
+    {
+      "groupName": "Jest families",
+      "matchPackagePrefixes": [
+        "@types/jest"
+      ],
+      "matchPackagePatterns": [
+        "jest"
+      ]
+    },
+    {
+      "groupName": "TypeScript families",
+      "matchPackagePatterns": [
+        "typescript"
+      ],
+      "matchPackagePrefixes": [
+        "ts-"
+      ]
+    }
+  ]
+}
+
