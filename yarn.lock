@@ -4070,10 +4070,10 @@ node-gyp@^9.0.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-html-parser@6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.1.tgz#7f38f4427fafc242a22135d9db80c1455e837467"
-  integrity sha512-eYYblUeoMg0nR6cYGM4GRb1XncNa9FXEftuKAU1qyMIr6rXVtNyUKduvzZtkqFqSHVByq2lLjC7WO8tz7VDmnA==
+node-html-parser@6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-6.1.4.tgz#763cd362497e427d51fc73dda3dcd8ac52ba85a3"
+  integrity sha512-3muP9Uy/Pz7bQa9TNYVQzWJhNZMqyCx7xJle8kz2/y1UgzAUyXXShc1IcPaJy6u07CE3K5rQcRwlvHzmlySRjg==
   dependencies:
     css-select "^5.1.0"
     he "1.2.0"
@@ -4567,10 +4567,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@34.28.1:
-  version "34.28.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.28.1.tgz#c59d318786086d19900356ae582cc90092b17e91"
-  integrity sha512-Ds394SMa/w8q2LPIa0kIRY3Bq77ninvVdppapHMDX/D4tfVeXrNRRurYLcon5+gih5yRXPJUP0MI8bLFkNUWMg==
+renovate@34.31.0:
+  version "34.31.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-34.31.0.tgz#7d6add018f746d0434db00fbcbe48264bcd5c1f3"
+  integrity sha512-N80CqDk4VqbU1LS+pis8EIexyJ1uuSmwlCJCuc/Kk2rJq7b1y4fy0jvm9YLC9lgGSQJPseTxdY/MKh+fOb1Mkg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.154.0"
     "@aws-sdk/client-ec2" "3.155.0"
@@ -4646,7 +4646,7 @@ renovate@34.28.1:
     minimatch "5.1.0"
     moo "0.5.2"
     nanoid "3.3.4"
-    node-html-parser "6.1.1"
+    node-html-parser "6.1.4"
     openpgp "5.5.0"
     p-all "3.0.0"
     p-map "4.0.0"
@@ -4658,7 +4658,7 @@ renovate@34.28.1:
     redis "4.5.0"
     remark "13.0.0"
     remark-github "10.1.0"
-    safe-stable-stringify "2.4.0"
+    safe-stable-stringify "2.4.1"
     semver "7.3.8"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
@@ -4777,10 +4777,10 @@ safe-json-stringify@~1:
   resolved "https://registry.yarnpkg.com/safe-json-stringify/-/safe-json-stringify-1.2.0.tgz#356e44bc98f1f93ce45df14bcd7c01cda86e0afd"
   integrity sha512-gH8eh2nZudPQO6TytOvbxnuhYBOvDBBLW52tz5q6X58lJcd/tkmqFR+5Z9adS8aJtURSXWThWy/xJtJwixErvg==
 
-safe-stable-stringify@2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.0.tgz#95fadb1bcf8057a1363e11052122f5da36a69215"
-  integrity sha512-eehKHKpab6E741ud7ZIMcXhKcP6TSIezPkNZhy5U8xC6+VvrRdUA2tMgxGxaGl4cz7c2Ew5+mg5+wNB16KQqrA==
+safe-stable-stringify@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.4.1.tgz#34694bd8a30575b7f94792aa51527551bd733d61"
+  integrity sha512-dVHE6bMtS/bnL2mwualjc6IxEv1F+OCUpA46pKUj6F8uDbUM0jCCulPqRNPSnWwGNKx5etqMjZYdXtrm5KJZGA==
 
 "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0:
   version "2.1.2"
