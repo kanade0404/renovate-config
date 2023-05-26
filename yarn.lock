@@ -4875,10 +4875,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@35.100.3:
-  version "35.100.3"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.100.3.tgz#84f3948d2fd0024d795b5f595d35969415dd81b9"
-  integrity sha512-smzKOTFWYiYqo24BQo/g1G0SnjWhyiP8Qj7Qxbmek1/bZIj03aQ2u6NvF+XQBOuXv8upm0KE97olL8v6lpx6iQ==
+renovate@35.102.4:
+  version "35.102.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-35.102.4.tgz#8c5a41c6775ce4ce24666dd8e4043f8c0fecc38a"
+  integrity sha512-HV+w6gLHHieJ0dpQbeP5K2+j7FGfIHBDz1bFGkUMqneBl9s/p+0faldNW/OnfHbXqB/USqLcWchkngBS+or7kg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.332.0"
     "@aws-sdk/client-ec2" "3.332.0"
@@ -5347,6 +5347,7 @@ stream-to-promise@^2.2.0:
     stream-to-array "~2.3.0"
 
 "string-width-cjs@npm:string-width@^4.2.0", "string-width@^1.0.2 || 2 || 3 || 4", string-width@^4.1.0, string-width@^4.2.3:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
