@@ -83,7 +83,8 @@
         "hashicorp/terraform-provider-google",
         "google/cloud-sdk",
         "hashicorp/setup-terraform",
-        "reviewdog/action-tflint"
+        "reviewdog/action-tflint",
+        "test"
       ],
       "matchPackageNames": ["terraform", "terraform-version"]
     }
