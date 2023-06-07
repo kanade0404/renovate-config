@@ -74,6 +74,18 @@
       "matchPackagePrefixes": [
         "ts-"
       ]
+    },
+    {
+      "groupName": "Terraform families",
+      "matchDepNames": [
+        "hashicorp/terraform",
+        "hashicorp/terraform-provider-aws",
+        "hashicorp/terraform-provider-google",
+        "google/cloud-sdk",
+        "hashicorp/setup-terraform",
+        "reviewdog/action-tflint"
+      ],
+      "matchPackageNames": ["terraform", "terraform-version"]
     }
   ]
 }
