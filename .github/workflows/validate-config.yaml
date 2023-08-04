@@ -20,8 +20,9 @@ jobs:
       - uses: pnpm/action-setup@v2
         with:
           version: 8
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+      - name: Validate package.json
+        run: pnpm fix:pack
       - name: Validate renovate config
-        run: |
-          pnpm install --no-frozen-lockfile
-          pnpm fix:pack
-          pnpm test
+        run: pnpm test
