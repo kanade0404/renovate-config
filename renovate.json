@@ -28,7 +28,10 @@
     },
     {
       "groupName": "ESLint families",
-      "extends": ["packages:eslint"]
+      "extends": ["packages:eslint"],
+      "matchPackagePatterns": [
+        "^eslint"
+      ]
     },
     {
       "groupName": "Prettier families",
@@ -83,8 +86,7 @@
         "hashicorp/terraform-provider-google",
         "google/cloud-sdk",
         "hashicorp/setup-terraform",
-        "reviewdog/action-tflint",
-        "test"
+        "reviewdog/action-tflint"
       ],
       "matchPackageNames": ["terraform", "terraform-version"]
     }
