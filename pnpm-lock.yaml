@@ -9,8 +9,8 @@ devDependencies:
     specifier: 4.0.0
     version: 4.0.0
   renovate:
-    specifier: 37.1.6
-    version: 37.1.6(typanion@3.13.0)
+    specifier: 37.12.1
+    version: 37.12.1(typanion@3.13.0)
 
 packages:
 
@@ -2063,8 +2063,8 @@ packages:
     resolution: {integrity: sha512-eXQpwnkI4Ntw5uJg6i2PINdRFWLr55dqjuYQaLHNjvqTzF14QdNWbCbml9sza0byyXNA0hZlHtcdN+VNDcgVHA==}
     dev: true
 
-  /@types/ms@0.7.31:
-    resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+  /@types/ms@0.7.32:
+    resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
     dev: true
 
   /@types/node@13.13.52:
@@ -3332,8 +3332,8 @@ packages:
       moo: 0.5.2
     dev: true
 
-  /google-auth-library@9.0.0:
-    resolution: {integrity: sha512-IQGjgQoVUAfOk6khqTVMLvWx26R+yPw9uLyb1MNyMQpdKiKt0Fd9sp4NWoINjyGHR8S3iw12hMTYK7O8J07c6Q==}
+  /google-auth-library@9.1.0:
+    resolution: {integrity: sha512-1M9HdOcQNPV5BwSXqwwT238MTKodJFBxZ/V2JP397ieOLv4FjQdfYb9SooR7Mb+oUT2IJ92mLJQf804dyx0MJA==}
     engines: {node: '>=14'}
     dependencies:
       base64-js: 1.5.1
@@ -3973,8 +3973,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /markdown-it@13.0.1:
-    resolution: {integrity: sha512-lTlxriVoy2criHP0JKRhO2VDG9c2ypWCsT237eDiLqi09rmbKoUetyGHq2uOIRoRS//kfoJckS0eUzzkDR+k2Q==}
+  /markdown-it@13.0.2:
+    resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
     hasBin: true
     dependencies:
       argparse: 2.0.1
@@ -4816,8 +4816,8 @@ packages:
       - supports-color
     dev: true
 
-  /renovate@37.1.6(typanion@3.13.0):
-    resolution: {integrity: sha512-gY9ufqIwVeB1RGqkFzvt5C+bQefmjdgbEgFwfM2z4LCFGj/eyAHigOsk6KIaGV2hpz3FOqQGI+4rjUfLknEM1w==}
+  /renovate@37.12.1(typanion@3.13.0):
+    resolution: {integrity: sha512-2GjAlAjsNL9Oj6vRK9gI+kWFX/NCiGx+F4LRybEp+BGq0T9uUdsFJnKkett70pmELkqHyCF9Ixi/uAMsPzVpWw==}
     engines: {node: ^18.12.0 || >=20.0.0, pnpm: ^8.0.0}
     hasBin: true
     dependencies:
@@ -4845,7 +4845,7 @@ packages:
       '@renovatebot/pep440': 3.0.8
       '@renovatebot/ruby-semver': 3.0.15
       '@sindresorhus/is': 4.6.0
-      '@types/ms': 0.7.31
+      '@types/ms': 0.7.32
       '@types/tmp': 0.2.4
       '@yarnpkg/core': 3.5.3(typanion@3.13.0)
       '@yarnpkg/parsers': 2.5.1
@@ -4880,7 +4880,7 @@ packages:
       glob: 10.3.10
       global-agent: 3.0.0
       good-enough-parser: 1.1.23
-      google-auth-library: 9.0.0
+      google-auth-library: 9.1.0
       got: 11.8.6
       graph-data-structure: 3.3.0
       handlebars: 4.7.8
@@ -4895,7 +4895,7 @@ packages:
       klona: 2.0.6
       lru-cache: 10.0.1
       luxon: 3.4.3
-      markdown-it: 13.0.1
+      markdown-it: 13.0.2
       markdown-table: 2.0.0
       minimatch: 9.0.3
       moo: 0.5.2
@@ -4927,7 +4927,7 @@ packages:
       validate-npm-package-name: 5.0.0
       vuln-vects: 1.1.0
       xmldoc: 1.3.0
-      zod: 3.22.2
+      zod: 3.22.3
     optionalDependencies:
       re2: 1.20.3
     transitivePeerDependencies:
@@ -5734,8 +5734,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.22.2:
-    resolution: {integrity: sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==}
+  /zod@3.22.3:
+    resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
     dev: true
 
   /zwitch@1.0.5:
