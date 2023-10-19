@@ -21,6 +21,21 @@
   },
   "packageRules": [
     {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": [
+        "pin",
+        "digest",
+        "patch",
+        "minor"
+      ],
+      "automerge": true
+    },
+    {
       "groupName": "Node.js",
       "matchPackageNames": [
         "node", "@types/node"
