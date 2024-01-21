@@ -4577,10 +4577,10 @@ picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-prettier@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.1.1.tgz#6ba9f23165d690b6cbdaa88cb0807278f7019848"
-  integrity sha512-22UbSzg8luF4UuZtzgiUOfcGM8s4tjBv6dJRT7j275NXsy2jb4aJa4NNveul5x4eqlF1wuhuR2RElK71RvmVaw==
+prettier@3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.2.tgz#96e580f7ca9c96090ad054616c0c4597e2844b65"
+  integrity sha512-HTByuKZzw7utPiDO523Tt2pLtEyK7OibUD9suEJQrPUCYQqrHr74GGX6VidMrovbf/I50mPqr8j/II6oBAuc5A==
 
 proc-log@^3.0.0:
   version "3.0.0"
@@ -4769,10 +4769,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@37.140.15:
-  version "37.140.15"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.140.15.tgz#57c299123c2d4179282112328ea4110506becfcc"
-  integrity sha512-sl8sRmI+jFLotHGp2igDBpGP+bGr30l4aPM7ddZ9GZDwkMa6rhlAwhOCOIHokMbWVXmSPOu0yS0txnYEynktDw==
+renovate@37.140.16:
+  version "37.140.16"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-37.140.16.tgz#b4d1689c8d8a7e462a764c13549397724a5e0885"
+  integrity sha512-Qpo2JzlQQtQn11DPatZBZf433ZBs3aFkjjHthWA+Y138TfB79ASOI55oz5PgPf2cn5/xagbU71YXxTmHHO1N/Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.363.0"
     "@aws-sdk/client-ec2" "3.363.0"
@@ -4859,7 +4859,7 @@ renovate@37.140.15:
     p-queue "6.6.2"
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
-    prettier "3.1.1"
+    prettier "3.2.2"
     redis "4.6.12"
     remark "13.0.0"
     remark-github "10.1.0"
