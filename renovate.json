@@ -43,7 +43,8 @@
     },
     {
       "groupName": "ESLint families",
-      "extends": ["packages:eslint"]
+      "extends": ["packages:eslint"],
+      "matchPackageNames": ["eslint"]
     },
     {
       "groupName": "Prettier families",
@@ -61,7 +62,8 @@
       "groupName": "React families",
       "matchPackagePrefixes": [
         "@types/react",
-        "react"
+        "react",
+        "@types/react-dom"
       ]
     },
     {
@@ -73,14 +75,26 @@
       ]
     },
     {
-      "groupName": "Jest families",
-      "matchPackagePrefixes": [
-        "@types/jest"
-      ],
+			"groupName": "storybook families",
+			"matchPackagePrefixes": ["@storybook", "storybook"]
+		},
+    {
+			"groupName": "Testing families",
       "matchPackagePatterns": [
         "jest"
-      ]
-    },
+      ],
+			"matchPackagePrefixes": [
+				"@testing-library",
+				"react-test-renderer",
+				"vitest",
+				"@vitejs"
+			],
+			"matchPackageNames": [
+				"@types/jest",
+				"@types/mocha",
+				"@types/react-test-renderer"
+			]
+		},
     {
       "groupName": "TypeScript families",
       "matchPackagePatterns": [
@@ -98,8 +112,7 @@
         "hashicorp/terraform-provider-google",
         "google/cloud-sdk",
         "hashicorp/setup-terraform",
-        "reviewdog/action-tflint",
-        "test"
+        "reviewdog/action-tflint"
       ],
       "matchPackageNames": ["terraform", "terraform-version"]
     }
