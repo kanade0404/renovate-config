@@ -19,6 +19,7 @@
       "(^|/)Dockerfile-[^/]*$"
     ]
   },
+  "rangeStrategy": "pin",
   "packageRules": [
     {
       "matchDepTypes": [
