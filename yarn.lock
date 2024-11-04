@@ -2817,10 +2817,10 @@ cron-parser@4.9.0:
   dependencies:
     luxon "^3.2.1"
 
-cronstrue@2.50.0:
-  version "2.50.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.50.0.tgz#eabba0f915f186765258b707b7a3950c663b5573"
-  integrity sha512-ULYhWIonJzlScCCQrPUG5uMXzXxSixty4djud9SS37DoNxDdkeRocxzHuAo4ImRBUK+mAuU5X9TSwEDccnnuPg==
+cronstrue@2.51.0:
+  version "2.51.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-2.51.0.tgz#0d37c506eab088ab5d3b68589203b79d78df488e"
+  integrity sha512-7EG9VaZZ5SRbZ7m25dmP6xaS0qe9ay6wywMskFOU/lMDKa+3gZr2oeT5OUfXwRP/Bcj8wxdYJ65AHU70CI3tsw==
 
 cross-spawn@7.0.3, cross-spawn@^7.0.0:
   version "7.0.3"
@@ -3519,10 +3519,10 @@ git-up@^7.0.0:
     is-ssh "^1.4.0"
     parse-url "^8.1.0"
 
-git-url-parse@14.1.0:
-  version "14.1.0"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-14.1.0.tgz#01cb70000666c11a7230aceec1fd518c416c224c"
-  integrity sha512-8xg65dTxGHST3+zGpycMMFZcoTzAdZ2dOtu4vmgIfkTFnVHBxHMzBC2L1k8To7EmrSiHesT8JgPLT91VKw1B5g==
+git-url-parse@15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-15.0.0.tgz#207b74d8eb888955b1aaf5dfc5f5778084fa9fa9"
+  integrity sha512-5reeBufLi+i4QD3ZFftcJs9jC26aULFLBU23FeKM/b1rI0K6ofIeAblmDVO7Ht22zTDE9+CkJ3ZVb0CgJmz3UQ==
   dependencies:
     git-up "^7.0.0"
 
@@ -3876,10 +3876,10 @@ ieee754@^1.1.13:
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
 
-ignore@5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.2.tgz#3cd40e729f3643fd87cb04e50bf0eb722bc596f5"
-  integrity sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==
+ignore@6.0.2:
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-6.0.2.tgz#77cccb72a55796af1b6d2f9eb14fa326d24f4283"
+  integrity sha512-InwqeHHN2XpumIkMvpl/DCJVrAHgCsG5+cn1XlnLWGwtZBm8QJfSusItfrwx81CTp5agNZqpKU2J/ccC5nGT4A==
 
 immediate@~3.0.5:
   version "3.0.6"
@@ -5514,10 +5514,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.0.0:
-  version "39.0.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.0.0.tgz#8600d2b30c2f5c3c7076b9187d8d7bb0c7b544d3"
-  integrity sha512-kT6xZXdFttAVT0VBNNePu4GF3oxosw1fgr0klCDQz0DO80szulZaFJhSe+qIG/Zv8DrF2TsPAFYf/TbHXUky+Q==
+renovate@39.0.1:
+  version "39.0.1"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.0.1.tgz#d5d6139a030977eb01e4b3805d7fcf1f5531ad16"
+  integrity sha512-wrSXmonhCv++vbhH+LkwK5Y8n4fvwt6HymokaFwmgkc0UabYOvtECayZaq4y4llGNBgFfK5V+ExzeLOxI+3vYw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.658.1"
     "@aws-sdk/client-ec2" "3.658.1"
@@ -5560,7 +5560,7 @@ renovate@39.0.0:
     commander "12.1.0"
     conventional-commits-detector "1.0.3"
     cron-parser "4.9.0"
-    cronstrue "2.50.0"
+    cronstrue "2.51.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "6.1.0"
@@ -5574,7 +5574,7 @@ renovate@39.0.0:
     find-packages "10.0.4"
     find-up "5.0.0"
     fs-extra "11.2.0"
-    git-url-parse "14.1.0"
+    git-url-parse "15.0.0"
     github-url-from-git "1.5.0"
     glob "11.0.0"
     global-agent "3.0.0"
@@ -5583,7 +5583,7 @@ renovate@39.0.0:
     got "11.8.6"
     graph-data-structure "3.5.0"
     handlebars "4.7.8"
-    ignore "5.3.2"
+    ignore "6.0.2"
     ini "4.1.3"
     json-dup-key-validator "1.0.3"
     json-stringify-pretty-compact "3.0.0"
@@ -5622,7 +5622,7 @@ renovate@39.0.0:
     tslib "2.8.0"
     upath "2.0.1"
     url-join "4.0.1"
-    validate-npm-package-name "5.0.1"
+    validate-npm-package-name "6.0.0"
     vuln-vects "1.1.0"
     xmldoc "1.3.0"
     yaml "2.6.0"
@@ -6464,10 +6464,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
-validate-npm-package-name@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-5.0.1.tgz#a316573e9b49f3ccd90dbb6eb52b3f06c6d604e8"
-  integrity sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ==
+validate-npm-package-name@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/validate-npm-package-name/-/validate-npm-package-name-6.0.0.tgz#3add966c853cfe36e0e8e6a762edd72ae6f1d6ac"
+  integrity sha512-d7KLgL1LD3U3fgnvWEY1cQXoO/q6EQ1BSz48Sa149V/5zVTAbgmZIpyI8TRi6U9/JNyeYLlTKsEMPtLC27RFUg==
 
 vfile-message@^2.0.0:
   version "2.0.4"
