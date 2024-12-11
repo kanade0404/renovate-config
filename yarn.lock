@@ -3672,10 +3672,10 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.6:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-graph-data-structure@4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-4.2.0.tgz#c934f4dc186d391e3c8ab391f7f13211eb3edca3"
-  integrity sha512-DFGyFROTYJAXwLjBPvj6LYihF2zIUDKt6Rzgo18E+FFKtHm7dJnE/bMHVp6fji5IchykUg3ctS9gwS0L5azwDw==
+graph-data-structure@4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/graph-data-structure/-/graph-data-structure-4.3.0.tgz#b4e72b17842267a9c55f33a0b4ac0226935ca7b4"
+  integrity sha512-rj0SZL3BLXHGZ/K6+Mw0PNrPu+x0uvHukr5dN/10u4Z77ROz5D+D66R+a3X9yZqJKVDcg/fN1FM5NfMX18ErAQ==
 
 grapheme-splitter@^1.0.4:
   version "1.0.4"
@@ -5215,10 +5215,10 @@ prebuild-install@^7.1.1:
     tar-fs "^2.0.0"
     tunnel-agent "^0.6.0"
 
-prettier@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.1.tgz#e211d451d6452db0a291672ca9154bc8c2579f7b"
-  integrity sha512-G+YdqtITVZmOJje6QkXQWzl3fSfMxFwm1tjTyo9exhkmWSqC4Yhd1+lug++IlR2mvRVAxEDDWYkQdeSztajqgg==
+prettier@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.2.tgz#a5ce1fb522a588bf2b78ca44c6e6fe5aa5a2b13f"
+  integrity sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==
 
 proc-log@^4.1.0:
   version "4.2.0"
@@ -5472,10 +5472,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@39.60.0:
-  version "39.60.0"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.60.0.tgz#40acc0fea27b3996aca0ed570584af1d360caf5c"
-  integrity sha512-GyGr51ZLGVk3nd+nvzlW3B30b62FdZwJqwXncgBUIP0f80Wf7cxs/6AKgulVl2BzDg4CtT7cny/jyTVmxkcUxA==
+renovate@39.62.5:
+  version "39.62.5"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-39.62.5.tgz#5bd904cc0e57897c441d525ec1568e0bdb61154d"
+  integrity sha512-LvlwooziG04STYv613Bpn7FjzRePyLBGuk2/z6gjv6Vd6bW9ktz7Qp4rA/u53VNvfKtDFb4h8zz39ScxykbMsA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.699.0"
     "@aws-sdk/client-ec2" "3.701.0"
@@ -5539,7 +5539,7 @@ renovate@39.60.0:
     good-enough-parser "1.1.23"
     google-auth-library "9.15.0"
     got "11.8.6"
-    graph-data-structure "4.2.0"
+    graph-data-structure "4.3.0"
     handlebars "4.7.8"
     ignore "6.0.2"
     ini "5.0.0"
@@ -5563,7 +5563,7 @@ renovate@39.60.0:
     p-queue "6.6.2"
     p-throttle "4.1.1"
     parse-link-header "2.0.0"
-    prettier "3.4.1"
+    prettier "3.4.2"
     protobufjs "7.4.0"
     punycode "2.3.1"
     redis "4.7.0"
