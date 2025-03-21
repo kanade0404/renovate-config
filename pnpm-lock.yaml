@@ -12,8 +12,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       renovate:
-        specifier: 39.210.1
-        version: 39.210.1(encoding@0.1.13)(typanion@3.13.0)
+        specifier: 39.211.0
+        version: 39.211.0(encoding@0.1.13)(typanion@3.13.0)
 
 packages:
 
@@ -291,6 +291,9 @@ packages:
   '@babel/runtime-corejs3@7.22.6':
     resolution: {integrity: sha512-M+37LLIRBTEVjktoJjbw4KVhupF0U/3PYUCbBwgAd9k17hoKhRu1n935QiG7Tuxv0LJOMrb2vuKEeYUlv0iyiw==}
     engines: {node: '>=6.9.0'}
+
+  '@baszalmstra/rattler@0.2.0':
+    resolution: {integrity: sha512-Dkcy5TXmlNvU8LAvagfBHYOFnBHlKYeBiMljG8Iln6ZmQSkeHgO3yo69A4Rs3Lv6DSH3pSrun7LHdaxv99l4tg==}
 
   '@breejs/later@4.2.0':
     resolution: {integrity: sha512-EVMD0SgJtOuFeg0lAVbCwa+qeTKILb87jqvLyUtQswGD9+ce2nB52Y5zbTF1Hc0MDFfbydcMcxb47jSdhikVHA==}
@@ -2409,8 +2412,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@39.210.1:
-    resolution: {integrity: sha512-oUoUgLULXCRnhwAJAaeIkkpXV+GJqwpP077OPFrNK43hqaOSYtU1KYD56TuLO5ieso9d4TzUpgc+QVAA10PktQ==}
+  renovate@39.211.0:
+    resolution: {integrity: sha512-/m+9+Bceth+O6q5xOJ6H1BmYtSgbc3fdD9YEFrSpleezCeHIGs6UeMY79iABAHsTmSHB73T+4KJ9e6jJTfKcNg==}
     engines: {node: ^20.15.1 || ^22.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -3953,6 +3956,8 @@ snapshots:
     dependencies:
       core-js-pure: 3.32.0
       regenerator-runtime: 0.13.11
+
+  '@baszalmstra/rattler@0.2.0': {}
 
   '@breejs/later@4.2.0': {}
 
@@ -6392,7 +6397,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@39.210.1(encoding@0.1.13)(typanion@3.13.0):
+  renovate@39.211.0(encoding@0.1.13)(typanion@3.13.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.738.0
       '@aws-sdk/client-ec2': 3.738.0
@@ -6401,6 +6406,7 @@ snapshots:
       '@aws-sdk/client-rds': 3.740.0
       '@aws-sdk/client-s3': 3.740.0
       '@aws-sdk/credential-providers': 3.738.0
+      '@baszalmstra/rattler': 0.2.0
       '@breejs/later': 4.2.0
       '@cdktf/hcl2json': 0.20.11
       '@opentelemetry/api': 1.9.0
