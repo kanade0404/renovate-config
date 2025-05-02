@@ -12,8 +12,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       renovate:
-        specifier: 40.0.9
-        version: 40.0.9(encoding@0.1.13)(typanion@3.13.0)
+        specifier: 40.1.1
+        version: 40.1.1(encoding@0.1.13)(typanion@3.13.0)
 
 packages:
 
@@ -558,6 +558,10 @@ packages:
   '@sindresorhus/is@4.6.0':
     resolution: {integrity: sha512-t09vSN3MdfsyCHoFcTRCH/iUtG7OJ0CsjzB8cjAmKc/va/kIgeDI/TxsigdncE/4be734m0cvIYwNaV4i2XqAw==}
     engines: {node: '>=10'}
+
+  '@sindresorhus/is@7.0.1':
+    resolution: {integrity: sha512-QWLl2P+rsCJeofkDNIT3WFmb6NrRud1SUYW8dIhXK/46XFV8Q/g7Bsvib0Askb0reRLe+WYPeeE+l5cH7SlkuQ==}
+    engines: {node: '>=18'}
 
   '@smithy/abort-controller@4.0.2':
     resolution: {integrity: sha512-Sl/78VDtgqKxN2+1qduaVE140XF+Xg+TafkncspwM4jFP/LHr76ZHmIY/y3V1M0mMLNk+Je6IGbzxy23RSToMw==}
@@ -2355,8 +2359,8 @@ packages:
   remark@13.0.0:
     resolution: {integrity: sha512-HDz1+IKGtOyWN+QgBiAT0kn+2s6ovOxHyPAFGKVE81VSzJ+mq7RwHFledEvB5F1p4iJvOah/LOKdFuzvRnNLCA==}
 
-  renovate@40.0.9:
-    resolution: {integrity: sha512-7sCYrr6iopry92G7+RL+KJxXW7gpAyoETqSBTqH+1+fOOAEdVfhIrj2gC3FSo/JQdrdtZ6KzA6cmyASPZupFTA==}
+  renovate@40.1.1:
+    resolution: {integrity: sha512-drmSFAiN0EUs3ImdImr9kdkESnzhX19ZQ2QdqBCn96mft0Y9rimpjjs+Gs0k9EqS/DC3Gkr75l0zfE33vklsag==}
     engines: {node: ^22.13.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4049,6 +4053,8 @@ snapshots:
       util: 0.12.5
 
   '@sindresorhus/is@4.6.0': {}
+
+  '@sindresorhus/is@7.0.1': {}
 
   '@smithy/abort-controller@4.0.2':
     dependencies:
@@ -6124,7 +6130,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@40.0.9(encoding@0.1.13)(typanion@3.13.0):
+  renovate@40.1.1(encoding@0.1.13)(typanion@3.13.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.799.0
       '@aws-sdk/client-ec2': 3.800.0
@@ -6157,7 +6163,7 @@ snapshots:
       '@renovatebot/osv-offline': 1.6.5
       '@renovatebot/pep440': 4.1.0
       '@renovatebot/ruby-semver': 4.0.0
-      '@sindresorhus/is': 4.6.0
+      '@sindresorhus/is': 7.0.1
       '@yarnpkg/core': 4.4.1(typanion@3.13.0)
       '@yarnpkg/parsers': 3.0.3
       agentkeepalive: 4.6.0
