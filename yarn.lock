@@ -4437,12 +4437,10 @@ markdown-it@14.1.0:
     punycode.js "^2.3.1"
     uc.micro "^2.1.0"
 
-markdown-table@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-2.0.0.tgz#194a90ced26d31fe753d8b9434430214c011865b"
-  integrity sha512-Ezda85ToJUBhM6WGaG6veasyym+Tbs3cMAw/ZhOPqXiYsr0jgocBV3j3nx+4lk47plLlIqjwuTm/ywVI+zjJ/A==
-  dependencies:
-    repeat-string "^1.0.0"
+markdown-table@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.4.tgz#fe44d6d410ff9d6f2ea1797a3f60aa4d2b631c2a"
+  integrity sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==
 
 matcher@^3.0.0:
   version "3.0.0"
@@ -5431,10 +5429,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@40.3.2:
-  version "40.3.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.3.2.tgz#b9f587a9bde94fc3f30bd56a5fb50af862e58703"
-  integrity sha512-9gaj3QkMHzETH2VAILcoorHqeUPK53Ulk7PGiUi6YWjwtL0C3Sr3vLccUJcY5dF2cjcyWwkCqWtun1mV+3kkcA==
+renovate@40.3.4:
+  version "40.3.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.3.4.tgz#d90414a5cd4996dbe6f6e3b496bc634debdfdb96"
+  integrity sha512-v6A500l9exZNRTKHh9NncZqEw6ts7+c427ptXfAFCioN0jt3x2h5m6w6k4GUasRoUUxIWNCvVT2O9AGE9OVtUw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.799.0"
     "@aws-sdk/client-ec2" "3.800.0"
@@ -5517,7 +5515,7 @@ renovate@40.3.2:
     klona "2.0.6"
     luxon "3.6.1"
     markdown-it "14.1.0"
-    markdown-table "2.0.0"
+    markdown-table "3.0.4"
     minimatch "10.0.1"
     moo "0.5.2"
     ms "2.1.3"
