@@ -1422,10 +1422,10 @@
   resolved "https://registry.yarnpkg.com/@redis/bloom/-/bloom-1.2.0.tgz#d3fd6d3c0af3ef92f26767b56414a370c7b63b71"
   integrity sha512-HG2DFjYKbpNmVXsa0keLHp/3leGJz1mjh09f2RLGGLQZzSHpkmZWuwJbAvo3QcRY8p80m5+ZdXZdYOSBLlp7Cg==
 
-"@redis/client@1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.6.0.tgz#dcf4ae1319763db6fdddd6de7f0af68a352c30ea"
-  integrity sha512-aR0uffYI700OEEH4gYnitAnv3vzVGXCFvYfdpu/CJKvk4pHfLPEy/JSZyrpQ+15WhXe1yJRXLtfQ84s4mEXnPg==
+"@redis/client@1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@redis/client/-/client-1.6.1.tgz#c4636b7cb34e96008a988409b7e787364ae761a2"
+  integrity sha512-/KCsg3xSlR+nCK8/8ZYSknYxvXHwubJrU82F3Lm1Fp6789VQ0/3RJKfsmRXjqfaTA++23CvC3hqmqe/2GEt6Kw==
   dependencies:
     cluster-key-slot "1.1.2"
     generic-pool "3.9.0"
@@ -2425,10 +2425,10 @@ base64-js@^1.3.0, base64-js@^1.3.1:
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
-better-sqlite3@11.9.1:
-  version "11.9.1"
-  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.9.1.tgz#0540da2f2ce24cbd766bb35db412f4be2c75b8bb"
-  integrity sha512-Ba0KR+Fzxh2jDRhdg6TSH0SJGzb8C0aBY4hR8w8madIdIzzC6Y1+kx5qR6eS1Z+Gy20h6ZU28aeyg0z1VIrShQ==
+better-sqlite3@11.10.0:
+  version "11.10.0"
+  resolved "https://registry.yarnpkg.com/better-sqlite3/-/better-sqlite3-11.10.0.tgz#2b1b14c5acd75a43fd84d12cc291ea98cef57d98"
+  integrity sha512-EwhOpyXiOEL/lKzHz9AW1msWFNzGc/z+LzeB3/jnFJpxu+th2yqvzsSWas1v9jgs9+xiXJcD5A8CJxAG2TaghQ==
   dependencies:
     bindings "^1.5.0"
     prebuild-install "^7.1.1"
@@ -5387,13 +5387,13 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
-redis@4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/redis/-/redis-4.7.0.tgz#b401787514d25dd0cfc22406d767937ba3be55d6"
-  integrity sha512-zvmkHEAdGMn+hMRXuMBtu4Vo5P6rHQjLoHftu+lBqq8ZTA3RCVC/WzD790bkKKiNFp7d5/9PcSD19fJyyRvOdQ==
+redis@4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/redis/-/redis-4.7.1.tgz#08588a30936be0e7ad9c0f3e1ac6a85ccaf73e94"
+  integrity sha512-S1bJDnqLftzHXHP8JsT5II/CtHWQrASX5K96REjWjlmWKrviSOLWmM7QnRLstAWsu1VBBV1ffV6DzCvxNP0UJQ==
   dependencies:
     "@redis/bloom" "1.2.0"
-    "@redis/client" "1.6.0"
+    "@redis/client" "1.6.1"
     "@redis/graph" "1.1.1"
     "@redis/json" "1.0.7"
     "@redis/search" "1.2.0"
@@ -5445,10 +5445,10 @@ remark@13.0.0:
     remark-stringify "^9.0.0"
     unified "^9.1.0"
 
-renovate@40.11.16:
-  version "40.11.16"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.11.16.tgz#f16c8fcf03937d89683e28d0f4aacb39ab478110"
-  integrity sha512-xhs//1+R3FW+XnlPmlZ6JgMZbi6qsTM9egRVPG96wUp+IQzFTGOg0rmrfArOuJ9JXpcKhrH2trhvcBpvneOBVA==
+renovate@40.11.19:
+  version "40.11.19"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-40.11.19.tgz#0ac5b415c8e2abe049113b1c163bfd5deb8ed8e1"
+  integrity sha512-y7pl//xPUHiLiFe5+3j7kqbx1JynDCA8BfVk4JpdM6m2JcneO6KEoMoJbBZo/NoR84CLWsv+rRkNM2G01AFvRA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.799.0"
     "@aws-sdk/client-ec2" "3.800.0"
@@ -5546,7 +5546,7 @@ renovate@40.11.16:
     prettier "3.5.3"
     protobufjs "7.5.0"
     punycode "2.3.1"
-    redis "4.7.0"
+    redis "4.7.1"
     remark "13.0.0"
     remark-github "10.1.0"
     safe-stable-stringify "2.5.0"
@@ -5567,7 +5567,7 @@ renovate@40.11.16:
     yaml "2.7.1"
     zod "3.24.4"
   optionalDependencies:
-    better-sqlite3 "11.9.1"
+    better-sqlite3 "11.10.0"
     openpgp "6.1.0"
     re2 "1.21.4"
 
