@@ -5414,10 +5414,10 @@ prebuild-install@^7.1.1:
     tar-fs "^2.0.0"
     tunnel-agent "^0.6.0"
 
-prettier@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.1.tgz#cc3bce21c09a477b1e987b76ce9663925d86ae44"
-  integrity sha512-5xGWRa90Sp2+x1dQtNpIpeOQpTDBs9cZDmA/qs2vDNN2i18PdapqY7CmBeyLlMuGqXJRIOPaCaVZTLNQRWUH/A==
+prettier@3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.6.2.tgz#ccda02a1003ebbb2bfda6f83a074978f608b9393"
+  integrity sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==
 
 proc-log@^5.0.0:
   version "5.0.0"
@@ -5680,10 +5680,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.18.1:
-  version "41.18.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.18.1.tgz#48591604f4c57337c39b8c7481be9016e6ab05a7"
-  integrity sha512-iYtWU7BGRkLVUtYiJfyy5/5KErq0NPm2QN+lUcVY7qw0DZ5MZ+FKxInTzWGH0WtxIvU0FMmg/eT13PYUS/aZQw==
+renovate@41.18.4:
+  version "41.18.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.18.4.tgz#6c7e6f9518954c5287ad16b622074ce1dfcba3fe"
+  integrity sha512-B/LFI8zzABMIoFW1RI6SuZmJO3F7T1ov1jDFWeJcDEYjbWpcc7PJv9FA5EVZcs7eJ5kMEyDyVd+j7aeeVX1aLQ==
   dependencies:
     "@aws-sdk/client-codecommit" "3.840.0"
     "@aws-sdk/client-ec2" "3.840.0"
@@ -5777,7 +5777,7 @@ renovate@41.18.1:
     p-queue "8.1.0"
     p-throttle "7.0.0"
     parse-link-header "2.0.0"
-    prettier "3.6.1"
+    prettier "3.6.2"
     protobufjs "7.5.3"
     punycode "2.3.1"
     redis "4.7.1"
