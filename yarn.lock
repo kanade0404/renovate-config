@@ -5704,10 +5704,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.51.2:
-  version "41.51.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.51.2.tgz#e97177e6b85b9691b68c8edd679b754194cfa038"
-  integrity sha512-/+8Rgacdzoj2yqQy/QJreSGtl/Xtull76PYsPzeehvZOIq2eqnVgmEBPmknBe0ao2EESLToBx6GwWpG2j3SdYQ==
+renovate@41.52.0:
+  version "41.52.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.52.0.tgz#dd608dac4210046c9caf007a79f16b64cf7527f9"
+  integrity sha512-6ioCswI8X+2ORcNWT+1N20UK7TzYv1lMP6RlYjqRvAwtDWX9KYMiNxE+lnbst1pDM3yF4cUTMjqGoFTwokPohg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.858.0"
     "@aws-sdk/client-ec2" "3.858.0"
@@ -5812,7 +5812,7 @@ renovate@41.51.2:
     semver "7.7.2"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
-    shlex "2.1.2"
+    shlex "3.0.0"
     simple-git "3.28.0"
     slugify "1.6.6"
     source-map-support "0.5.21"
@@ -6023,10 +6023,10 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shlex@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/shlex/-/shlex-2.1.2.tgz#5b5384d603885281c1dee05d56975865edddcba0"
-  integrity sha512-Nz6gtibMVgYeMEhUjp2KuwAgqaJA1K155dU/HuDaEJUGgnmYfVtVZah+uerVWdH8UGnyahhDCgABbYTbs254+w==
+shlex@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/shlex/-/shlex-3.0.0.tgz#f2758dd07b29e0af9ba3c386dbddc1c65d849a98"
+  integrity sha512-jHPXQQk9d/QXCvJuLPYMOYWez3c43sORAgcIEoV7bFv5AJSJRAOyw5lQO12PMfd385qiLRCaDt7OtEzgrIGZUA==
 
 side-channel@^1.0.4:
   version "1.0.4"
