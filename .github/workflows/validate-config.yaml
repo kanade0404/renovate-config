@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 8.15.9
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
@@ -19,7 +19,7 @@ jobs:
           cache-dependency-path: pnpm-lock.yaml
       - uses: pnpm/action-setup@v2
         with:
-          version: 8
+          version: 8.15.9
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
       - name: Validate package.json
