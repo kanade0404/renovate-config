@@ -5891,10 +5891,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@41.119.5:
-  version "41.119.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.119.5.tgz#688249242d4d1faa88a96ad4ee11a936fa666c7c"
-  integrity sha512-z9y86GdE3K6AlFd7ue7jaIETEya/o8oBTPKBEVeXI3JYZXB3wEkh9gazXEZZytL6x/5rEbSIi9gBaDQwQ78zvw==
+renovate@41.119.6:
+  version "41.119.6"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-41.119.6.tgz#690b4cf490baf3719b9ac47bf032fc148218d105"
+  integrity sha512-oPvpWg7ZKI62yl0LyP3qXirPSm74GnpFKnsm2cVBuPEqRD5QWMjenvevuDiF2fDyvxoPVjd/umr/F7kGGIv9IA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.879.0"
     "@aws-sdk/client-ec2" "3.879.0"
