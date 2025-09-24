@@ -4,7 +4,7 @@
   "author": "kanade0404 <melty0404@gmail.com>",
   "devDependencies": {
     "fixpack": "4.0.0",
-    "renovate": "41.125.3"
+    "renovate": "41.127.2"
   },
   "license": "MIT",
   "private": true,
