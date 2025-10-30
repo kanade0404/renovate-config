@@ -12,8 +12,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       renovate:
-        specifier: 41.164.1
-        version: 41.164.1(encoding@0.1.13)(typanion@3.13.0)
+        specifier: 41.165.4
+        version: 41.165.4(encoding@0.1.13)(typanion@3.13.0)
 
 packages:
 
@@ -1166,8 +1166,8 @@ packages:
     resolution: {integrity: sha512-p9nwwR4qyT5W996vBZhdvBCnMhicY5ytZkR4D1Xj0wuTDEiMnjwR57Q3RXYY/s0EpX6Ay3vgIcfaR+ewGHsi+g==}
     engines: {node: '>=18.0'}
 
-  cronstrue@3.3.0:
-    resolution: {integrity: sha512-iwJytzJph1hosXC09zY8F5ACDJKerr0h3/2mOxg9+5uuFObYlgK0m35uUPk4GCvhHc2abK7NfnR9oMqY0qZFAg==}
+  cronstrue@3.9.0:
+    resolution: {integrity: sha512-T3S35zmD0Ai2B4ko6+mEM+k9C6tipe2nB9RLiGT6QL2Wn0Vsn2cCZAC8Oeuf4CaE00GZWVdpYitbpWCNlIWqdA==}
     hasBin: true
 
   cross-spawn@7.0.6:
@@ -2523,8 +2523,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@41.164.1:
-    resolution: {integrity: sha512-n25EtT9L4ACLMx5rOc1ZFjFWzzSBQGi3Yw3ZZTaNgoUpvPJXc0ltVOcv4MouWJPWRFG+uCDap2sU12aCvIlm6Q==}
+  renovate@41.165.4:
+    resolution: {integrity: sha512-8/7MLmsjvma5Jcy7bjoS84ey7418cfh8ftFw4kYrLzXsWJQX/HKRg361eAPa+/JkuxwMqXsHDVw6IbMkm61UTA==}
     engines: {node: ^22.13.0 || ^24.10.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4981,7 +4981,7 @@ snapshots:
 
   croner@9.1.0: {}
 
-  cronstrue@3.3.0: {}
+  cronstrue@3.9.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -6614,7 +6614,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@41.164.1(encoding@0.1.13)(typanion@3.13.0):
+  renovate@41.165.4(encoding@0.1.13)(typanion@3.13.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.899.0
       '@aws-sdk/client-ec2': 3.899.0
@@ -6664,7 +6664,7 @@ snapshots:
       commander: 14.0.1
       conventional-commits-detector: 1.0.3
       croner: 9.1.0
-      cronstrue: 3.3.0
+      cronstrue: 3.9.0
       deepmerge: 4.3.1
       dequal: 2.0.3
       detect-indent: 7.0.2
