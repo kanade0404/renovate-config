@@ -5641,10 +5641,10 @@ rc@^1.2.7, rc@^1.2.8:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re2@1.23.1:
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/re2/-/re2-1.23.1.tgz#8e774e5df6ed098e3d4efb482c90d231d6cc8460"
-  integrity sha512-S5UHlgjCp84BGyciTQgSxcQJD4H51l4iNk8drGWQCWAYDr71C4lHEf+DxmAoLoGRwEYzOcV7v4LSXrx0hFc/pQ==
+re2@1.23.2:
+  version "1.23.2"
+  resolved "https://registry.yarnpkg.com/re2/-/re2-1.23.2.tgz#2f0bcb86d6ace4534527b6adb7c94fa97f59e187"
+  integrity sha512-ds5iwbnfsmyiNDtuljBNAva54O4jhR77jL5bSM73NnsWQHkYoGWuePiZTrt6O3xXAHtrB/fviNQsPGRei6031w==
   dependencies:
     install-artifact-from-github "^1.4.0"
     nan "^2.24.0"
@@ -5794,10 +5794,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.2.6:
-  version "43.2.6"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.2.6.tgz#c3350257e4624a4a75e43dfbc3aa8c463ec15ba5"
-  integrity sha512-+wOZXsRIN6nc/uYvZPGU3BrcqJOfKHE+N8lD8rjnR/tYy5AmEBE/eWNUX5vJncSL0rMe8Gica38F8qRke5pU3g==
+renovate@43.2.8:
+  version "43.2.8"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.2.8.tgz#e6610d2164c01f7fdc8119fc6dce8894b9a13a24"
+  integrity sha512-7lWUO/a6t76M++NSCJJAOwiotLnZmexQ1qWOzXdPEBXQRZGRzfgZmW8cApiHnX9XzfUHRiBtiVhSiFH9Ucfm3Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.980.0"
     "@aws-sdk/client-ec2" "3.980.0"
@@ -5920,7 +5920,7 @@ renovate@43.2.6:
   optionalDependencies:
     better-sqlite3 "12.6.2"
     openpgp "6.3.0"
-    re2 "1.23.1"
+    re2 "1.23.2"
 
 require-in-the-middle@^8.0.0:
   version "8.0.0"
