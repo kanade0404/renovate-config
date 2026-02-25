@@ -12,8 +12,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       renovate:
-        specifier: 43.31.10
-        version: 43.31.10(typanion@3.13.0)
+        specifier: 43.38.1
+        version: 43.38.1(typanion@3.13.0)
 
 packages:
 
@@ -1549,8 +1549,8 @@ packages:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==}
     engines: {node: '>= 6'}
 
-  glob@13.0.4:
-    resolution: {integrity: sha512-KACie1EOs9BIOMtenFaxwmYODWA3/fTfGSUnLhMJpXRntu1g+uL/Xvub5f8SCTppvo9q62Qy4LeOoUiaL54G5A==}
+  glob@13.0.5:
+    resolution: {integrity: sha512-BzXxZg24Ibra1pbQ/zE7Kys4Ua1ks7Bn6pKLkVPZ9FZe4JQS6/Q7ef3LG1H+k7lUf5l4T3PLSyYyYJVYUvfgTw==}
     engines: {node: 20 || >=22}
 
   glob@6.0.4:
@@ -2491,8 +2491,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.31.10:
-    resolution: {integrity: sha512-dKibvnBXGn6RPYMWzgEZjLNncNXuOAQlF/I4lYmUjv8X+pb55u1MokRnPmIrdlFSKfB5KIJrGCX3EpbecFLOXg==}
+  renovate@43.38.1:
+    resolution: {integrity: sha512-CFVKrC3gWQiukaV5w63QyraHrAzmcGOryIYjfNgiOzImhKebg5VBcUA6i10xtBGTOjg8ISQpk9AqNTDN9FJK3A==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -4891,7 +4891,7 @@ snapshots:
     dependencies:
       '@npmcli/fs': 5.0.0
       fs-minipass: 3.0.2
-      glob: 13.0.4
+      glob: 13.0.5
       lru-cache: 11.2.4
       minipass: 7.1.2
       minipass-collect: 2.0.1
@@ -5395,7 +5395,7 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
-  glob@13.0.4:
+  glob@13.0.5:
     dependencies:
       minimatch: 10.2.1
       minipass: 7.1.2
@@ -6589,7 +6589,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.31.10(typanion@3.13.0):
+  renovate@43.38.1(typanion@3.13.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.992.0
       '@aws-sdk/client-ec2': 3.992.0
@@ -6658,7 +6658,7 @@ snapshots:
       fs-extra: 11.3.3
       git-url-parse: 16.1.0
       github-url-from-git: 1.5.0
-      glob: 13.0.4
+      glob: 13.0.5
       global-agent: 3.0.0
       google-auth-library: 10.5.0
       got: 14.6.6
