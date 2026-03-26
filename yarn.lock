@@ -2577,7 +2577,23 @@ byte-counter@^0.1.0:
   resolved "https://registry.yarnpkg.com/byte-counter/-/byte-counter-0.1.0.tgz#c49760b5790e50e942a0d57a57b3fc0e94488dcc"
   integrity sha512-jheRLVMeUKrDBjVw2O5+k4EvR4t9wtxHL+bo/LxfkxsVeuGMy3a5SEGgXdAFA4FSzTrU8rQXQIrsZ3oBq5a0pQ==
 
-cacache@20.0.3, cacache@^20.0.1:
+cacache@20.0.4:
+  version "20.0.4"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-20.0.4.tgz#9b547dc3db0c1f87cba6dbbff91fb17181b4bbb1"
+  integrity sha512-M3Lab8NPYlZU2exsL3bMVvMrMqgwCnMWfdZbK28bn3pK6APT/Te/I8hjRPNu1uwORY9a1eEQoifXbKPQMfMTOA==
+  dependencies:
+    "@npmcli/fs" "^5.0.0"
+    fs-minipass "^3.0.0"
+    glob "^13.0.0"
+    lru-cache "^11.1.0"
+    minipass "^7.0.3"
+    minipass-collect "^2.0.1"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    p-map "^7.0.2"
+    ssri "^13.0.0"
+
+cacache@^20.0.1:
   version "20.0.3"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-20.0.3.tgz#bd65205d5e6d86e02bbfaf8e4ce6008f1b81d119"
   integrity sha512-3pUp4e8hv07k1QlijZu6Kn7c9+ZpWWk4j3F8N3xPuCExULobqJydKYOTj1FTq58srkJsXvO7LbGAH4C0ZU3WGw==
@@ -2811,10 +2827,10 @@ croner@10.0.1:
   resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
   integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
-cronstrue@3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.13.0.tgz#2ac6e91ec2ba8c73216fe095eeb41d6e81512315"
-  integrity sha512-M06cKwRIN46AyuM8BOmF1HUkBTkd3/h7uYImnrH1T3wtRKBGOibVo3jZ42VheEvx8LtgZbG/4GI35vfIxYxMug==
+cronstrue@3.14.0:
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.14.0.tgz#bc7844ae67959b90742b298aabe7c6d49cdbf931"
+  integrity sha512-XnW4vuK/jPJjmTyDWiej1Zq36Od7ITwxaV2O1pzHZuyMVvdy7NAvyvIBzybt+idqSpfqYuoDG7uf/ocGtJVWxA==
 
 cross-spawn@^7.0.0:
   version "7.0.3"
@@ -5600,10 +5616,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.89.9:
-  version "43.89.9"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.89.9.tgz#201e81f71e42966a0d20e08f99fcdfb2db6b5034"
-  integrity sha512-Fsh1esmmkghLEvZfcQY3uOFz/SfAxut6v7JUsa1lbsxxVQXu4e4kQf87YaBEhF+xggtotQTtYbsO9fvovtfXrA==
+renovate@43.91.4:
+  version "43.91.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.91.4.tgz#198e0e8e9b781dc2078749e4fb4767c56f493a7a"
+  integrity sha512-tOAw1rFtQyAlvAOgG3n7kAijxGvCY5NpuN1AVGaysmY3W24CqaacOU/B9kfggLJKDE8GufbcqBYr9LHg7TlJTA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1000.0"
     "@aws-sdk/client-ec2" "3.1000.0"
@@ -5648,13 +5664,13 @@ renovate@43.89.9:
     aws4 "1.13.2"
     azure-devops-node-api "15.1.2"
     bunyan "1.8.15"
-    cacache "20.0.3"
+    cacache "20.0.4"
     changelog-filename-regex "2.0.1"
     clean-git-ref "2.0.1"
     commander "14.0.3"
     conventional-commits-detector "1.0.3"
     croner "10.0.1"
-    cronstrue "3.13.0"
+    cronstrue "3.14.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "7.0.2"
@@ -5720,7 +5736,7 @@ renovate@43.89.9:
     url-join "5.0.0"
     validate-npm-package-name "7.0.2"
     xmldoc "2.0.3"
-    yaml "2.8.2"
+    yaml "2.8.3"
     zod "4.3.6"
   optionalDependencies:
     better-sqlite3 "12.8.0"
@@ -6620,10 +6636,10 @@ yallist@^5.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-5.0.0.tgz#00e2de443639ed0d78fd87de0d27469fbcffb533"
   integrity sha512-YgvUTfwqyc7UXVMrB+SImsVYSmTS8X/tSrtdNZMImM+n7+QTriRXyXim0mBrTXNeqzVF0KWGgHPeiyViFFrNDw==
 
-yaml@2.8.2:
-  version "2.8.2"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.2.tgz#5694f25eca0ce9c3e7a9d9e00ce0ddabbd9e35c5"
-  integrity sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==
+yaml@2.8.3:
+  version "2.8.3"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.3.tgz#a0d6bd2efb3dd03c59370223701834e60409bd7d"
+  integrity sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==
 
 yargs-parser@^18.1.3:
   version "18.1.3"
