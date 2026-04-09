@@ -5003,10 +5003,10 @@ p-map@^7.0.2:
   resolved "https://registry.yarnpkg.com/p-map/-/p-map-7.0.2.tgz#7c5119fada4755660f70199a66aa3fe2f85a1fe8"
   integrity sha512-z4cYYMMdKHzw4O5UkWJImbZynVIo0lSGTXc7bzB1e/rrDqkgGUNysK/o4bTr+0+xKvvLoTyGqYC4Fgljy9qe1Q==
 
-p-queue@9.1.0:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-9.1.0.tgz#846e517c461fb6e3cf8fc09904e57d342ac448b2"
-  integrity sha512-O/ZPaXuQV29uSLbxWBGGZO1mCQXV2BLIwUr59JUU9SoH76mnYvtms7aafH/isNSNGwuEfP6W/4xD0/TJXxrizw==
+p-queue@9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-9.1.1.tgz#df762cac89c648c83a5e5d53673ab355c542a4ce"
+  integrity sha512-yQS1vV2V7Q14MQrgD8jMNY5owPuGgVHVdSK8NqmKpOVajnjbaeMa6uLOzTALPtvJ7Vo4bw0BGsw7qfUT8z24Ig==
   dependencies:
     eventemitter3 "^5.0.1"
     p-timeout "^7.0.0"
@@ -5328,10 +5328,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.109.5:
-  version "43.109.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.109.5.tgz#4658ef577e590dedb5607bfd5b7f475519315249"
-  integrity sha512-TnN/tO030xUrz/AntXZBPTW80QNti944WCkFSm2wAm5vKwSjSTGmQYw10vLzHnOj9vLZMa3rtdxcxjhaRy24xA==
+renovate@43.110.12:
+  version "43.110.12"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.110.12.tgz#8b6ed86e8469f46760844bb8f1cf26839f3ba4b5"
+  integrity sha512-5gg+nBgLLKUxr4EtaV45Upn5wGxpCeo7JuNM37q6705APuFzMuaHzVdBJNUdIChig4TRfSDkFeGmqYAD+lbjEg==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1021.0"
     "@aws-sdk/client-ec2" "3.1021.0"
@@ -5422,7 +5422,7 @@ renovate@43.109.5:
     node-html-parser "7.1.0"
     p-all "5.0.1"
     p-map "7.0.4"
-    p-queue "9.1.0"
+    p-queue "9.1.1"
     p-throttle "8.1.0"
     parse-link-header "2.0.0"
     prettier "3.8.1"
@@ -5438,7 +5438,7 @@ renovate@43.109.5:
     semver-utils "1.1.4"
     shlex "3.0.0"
     simple-git "3.33.0"
-    slugify "1.6.8"
+    slugify "1.6.9"
     source-map-support "0.5.21"
     strip-json-comments "5.0.3"
     toml-eslint-parser "1.0.3"
@@ -5677,10 +5677,10 @@ simple-git@3.33.0:
     "@kwsites/promise-deferred" "^1.1.1"
     debug "^4.4.0"
 
-slugify@1.6.8:
-  version "1.6.8"
-  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.8.tgz#0e43855ebc7df24102d04082e0bcc3a344353604"
-  integrity sha512-HVk9X1E0gz3mSpoi60h/saazLKXKaZThMLU3u/aNwoYn8/xQyX2MGxL0ui2eaokkD7tF+Zo+cKTHUbe1mmmGzA==
+slugify@1.6.9:
+  version "1.6.9"
+  resolved "https://registry.yarnpkg.com/slugify/-/slugify-1.6.9.tgz#610957dea21e56b65e3a153215ef7b265715c8e8"
+  integrity sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg==
 
 smart-buffer@^4.2.0:
   version "4.2.0"
