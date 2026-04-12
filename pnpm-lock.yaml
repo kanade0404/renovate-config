@@ -12,8 +12,8 @@ importers:
         specifier: 4.0.0
         version: 4.0.0
       renovate:
-        specifier: 43.110.14
-        version: 43.110.14(typanion@3.13.0)
+        specifier: 43.110.16
+        version: 43.110.16(typanion@3.13.0)
 
 packages:
 
@@ -2193,8 +2193,8 @@ packages:
     resolution: {integrity: sha512-CvexbZtbov6jW2eXAvLukXjXUW1TzFaivC46BpWc/3BpcCysb5Vffu+B3XHMm8lVEuy2Mm4XGex8hBSg1yapPg==}
     engines: {node: '>=12.0.0'}
 
-  protobufjs@8.0.0:
-    resolution: {integrity: sha512-jx6+sE9h/UryaCZhsJWbJtTEy47yXoGNYI4z8ZaRncM0zBKeRqjO2JEcOUYwrYGb1WLhXM1FfMzW3annvFv0rw==}
+  protobufjs@8.0.1:
+    resolution: {integrity: sha512-NWWCCscLjs+cOKF/s/XVNFRW7Yih0fdH+9brffR5NZCy8k42yRdl5KlWKMVXuI1vfCoy4o1z80XR/W/QUb3V3w==}
     engines: {node: '>=12.0.0'}
 
   protocols@2.0.1:
@@ -2255,8 +2255,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.110.14:
-    resolution: {integrity: sha512-N0rU9MXLibRkIhhzXuFoFVMs5XhXfMCV0Ilkpv/fmX0lKS9ec65UjjtYyz9KGr9ZoUuCStJhpwIev2B3AIq0gQ==}
+  renovate@43.110.16:
+    resolution: {integrity: sha512-NViP4Ehgvdhdd0kZGdmqay0Pn59GGPeNmYEcNfNt4YFVeNDh3zhzmfDOdY3dqiSqS01OiMN+eVANeQFc7oDXFg==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -5775,7 +5775,7 @@ snapshots:
       '@types/node': 20.4.5
       long: 5.2.3
 
-  protobufjs@8.0.0:
+  protobufjs@8.0.1:
     dependencies:
       '@protobufjs/aspromise': 1.1.2
       '@protobufjs/base64': 1.1.2
@@ -5883,7 +5883,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.110.14(typanion@3.13.0):
+  renovate@43.110.16(typanion@3.13.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1021.0
       '@aws-sdk/client-ec2': 3.1021.0
@@ -5978,7 +5978,7 @@ snapshots:
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
       prettier: 3.8.1
-      protobufjs: 8.0.0
+      protobufjs: 8.0.1
       punycode: 2.3.1
       remark: 15.0.1
       remark-gfm: 4.0.1
