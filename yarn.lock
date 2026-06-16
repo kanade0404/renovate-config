@@ -4090,10 +4090,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.222.1:
-  version "43.222.1"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.222.1.tgz#dc35a8f4107f71e753f3e4eec6db177b29293d3a"
-  integrity sha512-rNYfr0wyvPcb2klwdgxfvAc4ocz6dWDVcPUkq7UxsAWU3i8q2Azl326hUs6sEYPLsCl7lMYLd/CV9rNYBwep+Q==
+renovate@43.227.0:
+  version "43.227.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.227.0.tgz#fe8a80e036dd2d1e7c997c0b3961b417526f7039"
+  integrity sha512-v+zfHlkSg9kIXsl81UR+BT/RUAjH3739u4NXkhdVwunJBimQxdXfwHrwLNpEtSajEPmp1qb+T97BAK5fmOXVpA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1053.0"
     "@aws-sdk/client-ec2" "3.1053.0"
@@ -4196,7 +4196,7 @@ renovate@43.222.1:
     remark-github "12.0.0"
     safe-stable-stringify "2.5.0"
     sax "1.6.0"
-    semver "7.8.2"
+    semver "7.8.3"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "3.0.0"
@@ -4316,10 +4316,10 @@ semver-utils@1.1.4:
   resolved "https://registry.yarnpkg.com/semver-utils/-/semver-utils-1.1.4.tgz#cf0405e669a57488913909fc1c3f29bf2a4871e2"
   integrity sha512-EjnoLE5OGmDAVV/8YDoN5KiajNadjzIp9BAHOhYeQHt7j0UWxjmgsx4YD48wp4Ue1Qogq38F1GNUJNqF1kKKxA==
 
-semver@7.8.2:
-  version "7.8.2"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.2.tgz#194bd65723a28cf82542d2bf176b91c26b343be1"
-  integrity sha512-c8jsqUZm3omBOI66G90z1Dyw5z622G8oLG+omfsHBJf3CWQTlOcwOjvOG6wtiNfW6anKm/eA39LMwMtMez2TiQ==
+semver@7.8.3:
+  version "7.8.3"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.3.tgz#c350de61c2a1ddbc96d7fae3e5b6fcf92d477fbe"
+  integrity sha512-wnilbGyMxzbY7dNOl7jpKbLSjcfeweJWU5j4+u5qW+6/wuGD9KzIGOyZnQVSBM9E7DtWaaH3CyHkppYrKYoxwg==
 
 semver@^6.3.0:
   version "6.3.0"
