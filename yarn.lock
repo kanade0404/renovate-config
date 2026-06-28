@@ -1855,10 +1855,10 @@ croner@10.0.1:
   resolved "https://registry.yarnpkg.com/croner/-/croner-10.0.1.tgz#4eb92806c99539146dbe2f3ee3907e319cb2847a"
   integrity sha512-ixNtAJndqh173VQ4KodSdJEI6nuioBWI0V1ITNKhZZsO0pEMoDxz539T4FTTbSZ/xIOSuDnzxLVRqBVSvPNE2g==
 
-cronstrue@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.14.0.tgz#bc7844ae67959b90742b298aabe7c6d49cdbf931"
-  integrity sha512-XnW4vuK/jPJjmTyDWiej1Zq36Od7ITwxaV2O1pzHZuyMVvdy7NAvyvIBzybt+idqSpfqYuoDG7uf/ocGtJVWxA==
+cronstrue@3.20.0:
+  version "3.20.0"
+  resolved "https://registry.yarnpkg.com/cronstrue/-/cronstrue-3.20.0.tgz#da441b941a2b2665e0eba41177c1c528a5efe95f"
+  integrity sha512-2VOOE8DSemXhqEtlU23GBMoeowHnhcto+HPelhtCfM5cP+PB59UOuoeOIBQATzKSW+RfOGF7OJjcwfaUxRW6QQ==
 
 cross-spawn@^7.0.3:
   version "7.0.6"
@@ -4090,10 +4090,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.242.2:
-  version "43.242.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.242.2.tgz#e30d2d47924b70834e63df346cef9d961b60844c"
-  integrity sha512-PMSQkraZPjLCyZEZWEALryYYjjDkzLNy/AhzZbj9UuXJTUnHDaqvChUS/iYjHjm+HEgAUqRVsZAHcha9bk3r3g==
+renovate@43.245.0:
+  version "43.245.0"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.245.0.tgz#93d8ccd27a0598c97594b0f744e16a16b074e82a"
+  integrity sha512-vjfQpKIY1w/Dyo9oLHayRQseu4JlvFxgXg+uE0PDX2ANmymwPm14FrQJJrHWLq3My2ELRjWeQoERJLGh4vemVw==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1053.0"
     "@aws-sdk/client-ec2" "3.1053.0"
@@ -4144,7 +4144,7 @@ renovate@43.242.2:
     clean-git-ref "2.0.1"
     commander "14.0.3"
     croner "10.0.1"
-    cronstrue "3.14.0"
+    cronstrue "3.20.0"
     deepmerge "4.3.1"
     dequal "2.0.3"
     detect-indent "7.0.2"
@@ -4196,7 +4196,7 @@ renovate@43.242.2:
     remark-github "12.0.0"
     safe-stable-stringify "2.5.0"
     sax "1.6.0"
-    semver "7.8.4"
+    semver "7.8.5"
     semver-stable "3.0.0"
     semver-utils "1.1.4"
     shlex "3.0.0"
@@ -4316,10 +4316,10 @@ semver-utils@1.1.4:
   resolved "https://registry.yarnpkg.com/semver-utils/-/semver-utils-1.1.4.tgz#cf0405e669a57488913909fc1c3f29bf2a4871e2"
   integrity sha512-EjnoLE5OGmDAVV/8YDoN5KiajNadjzIp9BAHOhYeQHt7j0UWxjmgsx4YD48wp4Ue1Qogq38F1GNUJNqF1kKKxA==
 
-semver@7.8.4:
-  version "7.8.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.4.tgz#c73eceebae0616934be8dff28a7fd70757c8e696"
-  integrity sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==
+semver@7.8.5:
+  version "7.8.5"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
+  integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
 
 semver@^6.3.0:
   version "6.3.0"
