@@ -3917,10 +3917,10 @@ proc-log@^7.0.0:
   resolved "https://registry.yarnpkg.com/proc-log/-/proc-log-7.0.0.tgz#46c9cc943ed4127272b49b34faa8855b44e3a976"
   integrity sha512-FYgfaA69XZ93zaXLoMNQ+ViDXGGBgR8aLh03txzcFhV+9xOXx7+8DLCULrKKpR9+GsH9ZfHm82aSUPpozX0Ztg==
 
-protobufjs@8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-8.7.0.tgz#a4595e4ac8fc052c6039de61b955fe201d1e6d10"
-  integrity sha512-uu52JNxLh3vsL7tXU/h0gDaywufvuUCTbGSi0NKQKBZ2ZopkmrWQJSQO/EFqzu/5YhiwgVM8rq/a/iVpx4eZ0g==
+protobufjs@8.7.1:
+  version "8.7.1"
+  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-8.7.1.tgz#5650e11f3d4b61c71e5bc0447230a6794a34d713"
+  integrity sha512-agdGHrXNTv0IrYscJPDou/PlEJk1c/hBZ9o/B5NH2i/nSPtPqacNxzgwf1CebXxFMjMrZH5sqv9uQuw96aGt/A==
   dependencies:
     long "^5.3.2"
 
@@ -4049,10 +4049,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@43.270.2:
-  version "43.270.2"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.270.2.tgz#7e96b13122d6392622f89f50783f8706571b91bf"
-  integrity sha512-sMFt3XPtWizU9mYEi5KetYkeGPL4fk9X3C5s4AMFCynH/J8q1aD5ysYBTnoXVaRsQ7LtRSunMg+okGZ4EY1VaQ==
+renovate@43.280.4:
+  version "43.280.4"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-43.280.4.tgz#ce1fb6d2dab951e306e695ea5c50998985df3955"
+  integrity sha512-YU9OzwdaE5zJWzNXJEHh3mjU7qy/jlZeZQlcUWsRXfG9Ql9vMfb4O0EYz3kWRN2Xgy81jfvvm8LYe7KgZ6UW+Q==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1075.0"
     "@aws-sdk/client-ec2" "3.1075.0"
@@ -4071,6 +4071,7 @@ renovate@43.270.2:
     "@opentelemetry/instrumentation-bunyan" "0.65.0"
     "@opentelemetry/instrumentation-http" "0.220.0"
     "@opentelemetry/instrumentation-redis" "0.68.0"
+    "@opentelemetry/otlp-transformer" "0.220.0"
     "@opentelemetry/resource-detector-aws" "2.20.0"
     "@opentelemetry/resource-detector-azure" "0.28.0"
     "@opentelemetry/resource-detector-gcp" "0.55.0"
@@ -4148,7 +4149,7 @@ renovate@43.270.2:
     p-throttle "8.1.0"
     parse-link-header "2.0.0"
     prettier "3.8.1"
-    protobufjs "8.7.0"
+    protobufjs "8.7.1"
     punycode "2.3.1"
     remark "15.0.1"
     remark-gfm "4.0.1"
