@@ -3733,6 +3733,11 @@ path-scurry@^2.0.2:
     lru-cache "^11.0.0"
     minipass "^7.1.2"
 
+pend@~1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
+  integrity sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==
+
 picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
@@ -3885,10 +3890,10 @@ remark@15.0.1:
     remark-stringify "^11.0.0"
     unified "^11.0.0"
 
-renovate@44.17.5:
-  version "44.17.5"
-  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.17.5.tgz#394685700cda08c8c68696346557ac706a01d98f"
-  integrity sha512-yj6ag1mfZQM1RQ+vrULgSNcRzi+1PiYEXBPqHFFGi4p2yYChLOBxHTWyKofAjG9iUB+xdl/QHuIPtJwU0ie6tw==
+renovate@44.30.3:
+  version "44.30.3"
+  resolved "https://registry.yarnpkg.com/renovate/-/renovate-44.30.3.tgz#20cccf205ecf08725e960a428a77c3e78b22ebeb"
+  integrity sha512-2ZHb2su4asCqmRIp1b3gdYDjyASci3xMLV7wdZHmxfq4FQh4reqFpWkXs8PfHIVZvcTioLw/B62W43Xg829nBA==
   dependencies:
     "@aws-sdk/client-codecommit" "3.1095.0"
     "@aws-sdk/client-ec2" "3.1095.0"
@@ -4007,6 +4012,7 @@ renovate@44.17.5:
     validate-npm-package-name "7.0.2"
     xmldoc "2.0.3"
     yaml "2.9.0"
+    yauzl "3.4.0"
     zod "4.4.3"
   optionalDependencies:
     openpgp "6.3.1"
@@ -4623,6 +4629,13 @@ yaml@2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.9.0.tgz#78274afd93598a1dfdd6130df6a566defcbf9aa4"
   integrity sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==
+
+yauzl@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/yauzl/-/yauzl-3.4.0.tgz#88b2a21455f37ca7dccf2eeb33bacb4392322719"
+  integrity sha512-jIH9yLR9wqr0wOS0TpBvo/g/2UgZH5qePVbjgRliiF0BYvOZyaBknKsF+x9Iht0O6sqgnB93rCICdOZFecJuDw==
+  dependencies:
+    pend "~1.2.0"
 
 yocto-queue@^1.0.0:
   version "1.2.1"
