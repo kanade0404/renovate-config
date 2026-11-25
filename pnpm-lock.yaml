@@ -8,7 +8,7 @@ overrides:
   undici: 8.13.1
   minimatch@3: 3.1.5
   braces: 3.0.3
-  picomatch@2: 2.3.2
+  picomatch@2: 4.0.7
   picomatch@4: 4.0.7
   brace-expansion@1: 1.1.22
   brace-expansion@5: 5.1.0
@@ -1901,10 +1901,6 @@ packages:
 
   pend@1.2.0:
     resolution: {integrity: sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==}
-
-  picomatch@2.3.2:
-    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
-    engines: {node: '>=8.6'}
 
   picomatch@4.0.7:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
@@ -4408,7 +4404,7 @@ snapshots:
   micromatch@4.0.5:
     dependencies:
       braces: 3.0.3
-      picomatch: 2.3.2
+      picomatch: 4.0.7
 
   mimic-response@1.0.1: {}
 
@@ -4618,10 +4614,7 @@ snapshots:
 
   pend@1.2.0: {}
 
-  picomatch@2.3.2: {}
-
-  picomatch@4.0.7:
-    optional: true
+  picomatch@4.0.7: {}
 
   prettier@3.10.1: {}
 
