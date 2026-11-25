@@ -7,7 +7,7 @@
     "renovate": "44.257.9"
   },
   "license": "MIT",
-  "packageManager": "pnpm@11.28.13",
+  "packageManager": "pnpm@12.23.0",
   "private": true,
   "repository": "git@github.com:kanade0404/renovate-config.git",
   "scripts": {
