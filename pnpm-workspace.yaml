@@ -25,4 +25,4 @@ overrides:
   # renovate 44.257.9 still pulls simple-git 4.0.2 (CVE-2026-134815 / GHSA-24pq-g7mp-w876).
   simple-git: 4.1.0
   # glob 13.0.7 backports the AbortSignal walk-after-abort fix (GHSA-3g3m-2fjr-6pw4).
-  glob@13: 13.0.7
+  glob@13: 14.0.6
