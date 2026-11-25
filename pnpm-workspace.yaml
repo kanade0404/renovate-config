@@ -19,7 +19,7 @@ overrides:
   picomatch@4: 4.0.7
   brace-expansion@1: 1.1.22
   brace-expansion@5: 5.1.0
-  js-yaml@4: 4.3.2
+  js-yaml@4: 5.5.0
   # GHSA-869p-cjfg-cm3x is patched in 4.0.1; npm audit still lists patched=None.
   jws: 4.0.1
   # renovate 44.257.9 still pulls simple-git 4.0.2 (CVE-2026-134815 / GHSA-24pq-g7mp-w876).
