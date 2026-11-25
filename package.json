@@ -4,9 +4,10 @@
   "author": "kanade0404 <melty0404@gmail.com>",
   "devDependencies": {
     "fixpack": "4.0.0",
-    "renovate": "44.39.3"
+    "renovate": "44.257.9"
   },
   "license": "MIT",
+  "packageManager": "pnpm@11.28.13",
   "private": true,
   "repository": "git@github.com:kanade0404/renovate-config.git",
   "scripts": {
